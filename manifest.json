@@ -8,6 +8,6 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "GoDark - Click to enable dark mode"
+    "default_title": "GoDark - Click to toggle dark mode"
   }
 }
