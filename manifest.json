@@ -4,15 +4,10 @@
   "version": "1.0",
   "description": "Force dark mode on websites that don't support it.",
   "permissions": ["scripting", "activeTab"],
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["dark-mode.css"],
-      "run_at": "document_idle"
-    }
-  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_title": "GoDark - Force Dark Mode"
+    "default_title": "GoDark - Click to enable dark mode"
   }
 }

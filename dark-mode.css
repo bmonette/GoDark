@@ -1,0 +1,38 @@
+/* Base background and text color */
+html, body {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Force light text on common elements */
+h1, h2, h3, h4, h5, h6,
+p, span, a, li, div, section, article,
+label, input, textarea, button, strong, em {
+  color: #e0e0e0 !important;
+}
+
+/* Override background on containers */
+div, section, article, nav, header, footer, main, aside {
+  background-color: #1e1e1e !important;
+  border-color: #444 !important;
+}
+
+/* Form elements */
+input, textarea, select, button {
+  background-color: #333 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #555 !important;
+}
+
+/* Links */
+a {
+  color: #8ab4f8 !important;
+}
+
+/* Invert light images (optional, experimental) */
+/*
+img {
+  filter: invert(0.9) hue-rotate(180deg) !important;
+}
+*/
+
