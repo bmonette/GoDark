@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "GoDark",
+  "version": "1.0",
+  "description": "Force dark mode on websites that don't support it.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["dark-mode.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "GoDark - Force Dark Mode"
+  }
+}
