@@ -23,17 +23,6 @@
 
 ---
 
-## Project Structure
-
-GoDark/
-├── background.js # Handles extension icon click & CSS injection
-├── dark-mode.css # Stylesheet for forcing dark mode
-├── manifest.json # Extension configuration
-└── README.md # You're reading it!
-
-
----
-
 ## Coming Soon
 
 - True toggle (without page reload)
@@ -45,7 +34,7 @@ GoDark/
 
 ## License
 
-MIT License — free to use, modify, and share.
+MIT License - free to use, modify, and share.
 If you build on this, consider crediting the original repo.
 
 ---
