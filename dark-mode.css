@@ -29,6 +29,30 @@ a {
   color: #8ab4f8 !important;
 }
 
+/* Don't mess with video players */
+video,
+iframe,
+object,
+embed {
+  background-color: transparent !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+/* Fix video overlay issues */
+.vjs-tech,
+.vjs-tech *,
+div[class*="video"],
+div[class*="vjs"],
+div[class*="Video"],
+div[class*="player"] {
+  background-color: transparent !important;
+  color: inherit !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  border: none !important;
+}
+
 /* Invert light images (optional, experimental) */
 /*
 img {
